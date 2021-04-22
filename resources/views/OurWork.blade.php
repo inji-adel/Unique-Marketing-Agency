@@ -47,7 +47,7 @@
   </div>
   </div>
 
-</div>
+
 <!--END SLIDER-->
 
 <!--Start Client review-->
@@ -127,6 +127,7 @@
 <!--START VIDEO-->
 <div class="iframe-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qj4FzCkSsLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 <!--END VIDEO-->
 <html>

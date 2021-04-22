@@ -1,20 +1,25 @@
 <!--About Us-->
 <div id="About Us">
     <div class="how-section1">
+        <div class="text">
+            <h1>ABOUT US</h1>
+        </div>
         <div class="row">
             <div class="col-md-6 how-img">
                 <img src="team.jpg" class="rounded-circle img-fluid" alt="" />
             </div>
             <div class="col-md-6">
                 <h4>Who We Are</h4>
-                <p class="text-muted">UNIQUE Marketing Agency, it’s not just our name it’s our Aim to shine your brand
+
+                <p class="text2">UNIQUE Marketing Agency, it’s not just our name it’s our Aim to shine your brand
                     under our professional guidance based on transparency. </p>
+
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <h4>Our Vision</h4>
-                <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re
+                <p class="text2">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re
                     a great fit for.
                     Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious
                     programs.
@@ -25,8 +30,11 @@
                 <img src="team1.jpg" class="rounded-circle img-fluid" alt="" />
             </div>
         </div>
+
     </div>
+    <hr>
     <!--Quotes-->
+    <!--
     <div class="container">
         <div class="row">
             <div class='col-md-offset-2 col-md-8 text-center'>
@@ -36,17 +44,17 @@
         <div class='row'>
             <div class='col-md-offset-2 col-md-8'>
                 <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                    <!-- Bottom Carousel Indicators -->
+
                     <ol class="carousel-indicators">
                         <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#quote-carousel" data-slide-to="1"></li>
                         <li data-target="#quote-carousel" data-slide-to="2"></li>
                     </ol>
 
-                    <!-- Carousel Slides / Quotes -->
+
                     <div class="carousel-inner">
 
-                        <!-- Quote 1 -->
+
                         <div class="item active">
                             <blockquote>
                                 <div class="row">
@@ -59,7 +67,7 @@
                                 </div>
                             </blockquote>
                         </div>
-                        <!-- Quote 2 -->
+
                         <div class="item">
                             <blockquote>
                                 <div class="row">
@@ -72,7 +80,7 @@
                                 </div>
                             </blockquote>
                         </div>
-                        <!-- Quote 3 -->
+
                         <div class="item">
                             <blockquote>
                                 <div class="row">
@@ -87,7 +95,7 @@
                         </div>
                     </div>
 
-                    <!-- Carousel Buttons Next/Prev -->
+
                     <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i
                             class="fa fa-chevron-left"></i></a>
                     <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i
@@ -96,26 +104,33 @@
             </div>
         </div>
     </div>
+-->
 </div>
 
 <html>
 <style>
     /*About Us*/
+
+    .text h1{
+        color:#aaa9ad;
+        margin-bottom: 100px;
+        font-family: serif;
+
+    }
+    .text2{
+        color: white;
+    }
     .how-section1 {
         padding: 10%;
         margin-top: 30px;
     }
 
     .how-section1 h4 {
-        color: #070706;
+        color: #aaa9ad;
         font-weight: bold;
         font-size: 30px;
         margin-bottom: 25px;
-    }
-
-    .how-section1 .subheading {
-        color: #3931af;
-        font-size: 20px;
+        font-family: serif;
     }
 
     .how-section1 .row {
@@ -127,7 +142,7 @@
     }
 
     .how-img img {
-        width: 70%;
+        width: 76%;
     }
 
     /*Quotes*/

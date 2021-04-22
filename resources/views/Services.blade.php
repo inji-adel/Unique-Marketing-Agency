@@ -2,16 +2,17 @@
     <div class="service">
         <div class="container">
             <div class="row">
+                <div class="text">
+                <h1 class="text-center">OUR SERVICES</h1>
+            </div>
                 <div class="col-md-12">
                     <div id="Carousel" class="carousel slide">
-
-
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#Carousel" data-slide-to="1"></li>
                             <li data-target="#Carousel" data-slide-to="2"></li>
                         </ol>
-                        <h1 class="text-center">Our Services</h1>
+
                         <!-- Carousel items -->
                         <div class="carousel-inner">
 
@@ -22,6 +23,8 @@
                                             <h2>Branding</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
                                     </div>
 
@@ -31,6 +34,8 @@
                                             <h2>Marketing Strategy</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
 
                                     </div>
@@ -39,8 +44,8 @@
                                             <h2>Social Media Management</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
-                                            <div class="btn btn-light"><a style="color: #1b1e21; font-size: 18px;"
-                                                    href="{{ route('services') }}">Add Name</a></div>
+                                            <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -55,6 +60,8 @@
                                             <h2>Content Creation & Management</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
@@ -62,6 +69,8 @@
                                             <h2>Creative & Experience Design</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
@@ -69,6 +78,8 @@
                                             <h2>Website Design & Development</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -84,6 +95,8 @@
                                             <h2>Occasion planning</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
 
                                         </a>
@@ -94,6 +107,8 @@
                                             <h2>Occasion planning</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
 
                                         </a>
@@ -104,6 +119,8 @@
                                             <h2>Occasion planning</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                                <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
+                                                    href="{{ route('services') }}">More</a></div>
                                         </div>
 
                                         </a>
@@ -120,54 +137,63 @@
                         <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                     </div>
                     <!--.Carousel-->
-
+                    <p>&nbsp;</p>
                 </div>
             </div>
         </div>
         <!--.container-->
-
     </div>
+    <hr>
 </div>
 
-<html>
-<style>
-    .service {
-        height: 70vh;
 
+<style>
+
+.big{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+    .service {
+        height: auto;
+        margin: 0;
     }
 
     .container {
         margin top: 15%;
-    }
 
-    .big {
-        margin-top: 20px;
     }
-
     .img-text {
         width: 100%;
-        height: 300px;
+        height: 350px;
         display: block;
         text-align: center;
         padding: 40% 5%;
-        background: #ebc076;
-        color: #fff;
+        background:#aaa9ad;
+        color: black;
         border-radius: 15px;
     }
 
     .img-text h2 {
-        margin-top: 0px;
-        font-size: 25px;
+
+        font-size: 35px;
         letter-spacing: 2px;
+        margin:-15px;
+        font: bold;
     }
 
     .img-text p {
         font-size: 14px;
+        margin-top: 30px;
     }
 
     .carousel {
-        margin-bottom: 0;
+        margin-bottom: 100px;
         padding: 0 40px 30px 40px;
+    }
+    .text h1{
+        color:#aaa9ad;
+        margin-bottom: 100px;
+        font-family: serif;
     }
 
     /* The controlsy */
@@ -199,18 +225,21 @@
     }
 
     .carousel-indicators .active {
-        background: #428bca;
+        background: #080808;
     }
-
 
     @media screen and (min-width: 576px) {
 
         .img-text h2 {
-            font-size: 19px;
+            font-size: 14px;
         }
+        .big{
+            margin-top:10px;
+        }
+
 
     }
 
 </style>
 
-</html>
+

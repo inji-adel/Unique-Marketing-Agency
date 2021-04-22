@@ -18,7 +18,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/text', function(){
-    return view('services');
+    return view('ServicesDetails');
 })->name('services');
 
 Route::get('/contactus', [App\Http\Controllers\HomeController::class, 'index'])->name('ContactUs');
