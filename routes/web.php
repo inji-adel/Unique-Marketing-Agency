@@ -15,17 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('master');
-});
+})->name('home');
 
-Route::get('/demo', array('as' => 'normindex', function()
-{
-   // do stuff
-   return view('demo');
-}));
+Route::get('/text', function(){
+    return view('services');
+})->name('services');
 
-
+Route::get('/contactus', [App\Http\Controllers\HomeController::class, 'index'])->name('ContactUs');
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
