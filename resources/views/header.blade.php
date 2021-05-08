@@ -133,6 +133,7 @@
         font-family: serif;
     }
 
+
     @media(max-width: 786px) {
 
         .logo {
@@ -168,8 +169,9 @@
             display: block;
         }
 
-    }
 
+
+    }
 </style>
 <script>
     $(document).ready(function() {
