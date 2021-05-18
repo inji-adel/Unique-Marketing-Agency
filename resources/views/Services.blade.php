@@ -229,9 +229,7 @@
     }
 
     @media (max-width: 576px) {
-        .big{
-            margin-bottom: 1000vh;
-        }
+
         .container{
             align-items: center;
 
@@ -253,6 +251,30 @@
 
 
     }
+
+    @media (max-width: 991.98px) {
+
+        .container{
+            align-items: center;
+
+        }
+
+     .service{
+    margin-top: 690px;
+
+         }
+        .img-text h2 {
+            font-size: 6px bold;
+        }
+        .big{
+            margin-top:10px;
+        }
+        .text h1{
+            padding-left: 40px;
+        }
+
+     }
+
 
 
 </style>
