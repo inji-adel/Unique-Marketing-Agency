@@ -13,7 +13,7 @@
                 <ul>
                     <li class="scroll-to-section"><a href="#About Us" class="menu-item">About Us</a></li>
                     <li class="scroll-to-section"><a href="#Contact Us" class="menu-item">Contact Us</a></li>
-                    <li class="scroll-to-section"><a href="#Our Work" class="menu-item">Our Work</a>
+                    {{-- <li class="scroll-to-section"><a href="#Our Work" class="menu-item">Our Work</a> --}}
                     <li class="scroll-to-section"><a href="#services" class="menu-item">Services</a>
                 </ul>
                 <hr>
