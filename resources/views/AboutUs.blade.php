@@ -113,7 +113,7 @@
 
     .text h1{
         color:#aaa9ad;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         font-family: serif;
 
     }

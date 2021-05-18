@@ -1,3 +1,4 @@
+<div id="Contact Us">
 <div class="big">
     <section id="contact " class="contact">
 
@@ -68,7 +69,7 @@
                 </form>
             </div>
         </div>
-        <hr>
+
         <p class="copy">Copyright ©️ 2021 All rights reserved </p>
 </div>
 </div>
@@ -298,7 +299,7 @@
     }
 
     .copy {
-        margin-top: 80px;
+        margin-top: 60px;
         color: #aaa9ad;
     }
 

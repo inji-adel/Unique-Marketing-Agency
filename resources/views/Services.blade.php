@@ -150,12 +150,12 @@
 <style>
 
 .big{
-    margin-top: 20px;
+    margin-top: 15px;
     padding-bottom: 50px;
+    padding-right: 30px;
 }
     .service {
-        height: auto;
-        margin: 0;
+        margin-top: 30%;
     }
 
     .container {
@@ -175,7 +175,7 @@
 
     .img-text h2 {
 
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing: 2px;
         margin:-15px;
         font: bold;
@@ -228,17 +228,28 @@
         background: #080808;
     }
 
-    @media screen and (min-width: 576px) {
+    @media (max-width: 576px) {
+        .container{
+            align-items: center;
+        }
 
+     .service{
+    margin-top: 690px;
+
+         }
         .img-text h2 {
-            font-size: 14px;
+            font-size: 6px bold;
         }
         .big{
             margin-top:10px;
         }
+        .text h1{
+            padding-left: 40px;
+        }
 
 
     }
+
 
 </style>
 
