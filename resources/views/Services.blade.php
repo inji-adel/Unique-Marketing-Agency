@@ -229,8 +229,12 @@
     }
 
     @media (max-width: 576px) {
+        .big{
+            margin-bottom: 1000vh;
+        }
         .container{
             align-items: center;
+
         }
 
      .service{
