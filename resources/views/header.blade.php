@@ -172,6 +172,42 @@
 
 
     }
+
+    @media (max-width: 991.98px) {
+        .logo {
+            top: 0;
+            margin-top: -109px;
+            margin-left: 10px;
+
+        }
+
+        nav ul {
+            max-height: 0px;
+            background: transparent;
+
+        }
+
+        nav.black ul {
+            background: black;
+            max-height: 0;
+        }
+
+        .showing {
+            max-height: 34em;
+        }
+
+        nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .menu-icon {
+            display: block;
+        }
+     }
+
 </style>
 <script>
     $(document).ready(function() {
