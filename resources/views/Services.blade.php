@@ -24,7 +24,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/test') }}">More</a></div>
                                         </div>
                                     </div>
 

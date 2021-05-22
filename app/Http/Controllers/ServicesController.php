@@ -9,9 +9,9 @@ class ServicesController extends Controller
 {
     public function show(Request $request)
     {
-        if (!$service = Service::where('name', $request->name)->first())
-            return response('Service not found', 404);
+        if ($service = Service::where('name', $request->name)->first())
+            return view('ServicesDetails', compact('service'));
         else
-            return view('Service', compact($service));
+            return view('ServicesDetails', compact(['value' => 'not found']));
     }
 }
