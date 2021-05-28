@@ -12,6 +12,6 @@ class ServicesController extends Controller
         if ($service = Service::where('name', $request->name)->first())
             return view('ServicesDetails', compact('service'));
         else
-            return view('ServicesDetails', compact(['value' => 'not found']));
+            return view('ServicesDetails');
     }
 }

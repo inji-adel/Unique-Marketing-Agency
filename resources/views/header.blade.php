@@ -206,7 +206,7 @@
         .menu-icon {
             display: block;
         }
-     }
+    }
 
 </style>
 <script>
