@@ -24,7 +24,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
                                     </div>
 
@@ -35,7 +35,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
 
                                     </div>
@@ -45,7 +45,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -57,20 +57,20 @@
                                 <div class="row">
                                     <div class=" big col-md-4">
                                         <div class="img-text">
-                                            <h2>Content Creation & Management</h2>
+                                            <h2>Search Engine Marketing</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
                                         <div class="img-text">
-                                            <h2>Creative & Experience Design</h2>
+                                            <h2>Content Creation & Management</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
@@ -79,7 +79,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -92,11 +92,11 @@
                                     <div class="big col-md-4">
                                         <!--<a href="#">-->
                                         <div class="img-text">
-                                            <h2>Occasion planning</h2>
+                                            <h2>Photography & Videography</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
 
                                         </a>
@@ -104,23 +104,11 @@
                                     <div class="big col-md-4">
                                         <!--<a href="#">-->
                                         <div class="img-text">
-                                            <h2>Occasion planning</h2>
+                                            <h2>Events</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
-                                        </div>
-
-                                        </a>
-                                    </div>
-                                    <div class="big col-md-4">
-                                        <!--<a href="#">-->
-                                        <div class="img-text">
-                                            <h2>Occasion planning</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
-                                            <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ route('services') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">More</a></div>
                                         </div>
 
                                         </a>

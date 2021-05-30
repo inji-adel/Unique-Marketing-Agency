@@ -26,9 +26,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <style>
-         body{
-             background-color: black;
-         }
+        body {
+            background-color: black;
+        }
+
     </style>
 </head>
 

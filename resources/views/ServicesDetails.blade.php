@@ -1,14 +1,17 @@
-<div class="sidenav">
-    <div class="image">
+@if (isset($service))
+    <div class="sidenav">
+        <img src="/{{ $service->image }}" class="img-thumbnail" alt="Cinque Terre">
     </div>
-</div>
-<div class="main">
-    <div class="col-md-6 col-sm-12">
-        <h2>logo and coperate identity design</h2>
-        <h1>Choose the expert</h1>
+    <div class="main">
+        <div class="col-md-6 col-sm-12">
+            <h2>{{ $service->name }}</h2>
+            <h1>{{ $service->content }}</h1>
+        </div>
+    </div>
+@else
+    <h1 style="text-align: center; color:#aaa9ad; margin-top:20%; font-size:100px;"> Service not found</h1>
 
-    </div>
-</div>
+@endif
 
 <style>
     body {
