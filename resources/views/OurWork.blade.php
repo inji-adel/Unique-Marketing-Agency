@@ -124,12 +124,7 @@
     </div>
   </div>
 <!--end Client review-->
-<!--START VIDEO-->
-<div class="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qj4FzCkSsLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-<!--END VIDEO-->
+
 <html>
   <style>
 
@@ -239,23 +234,7 @@
     .hero h1 { font-size: 4em; }
 }
 
-/*START video*/
-.iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 45%;
-    margin-top: 10%;
-    height: 0;
 
-}
-.iframe-container iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-/*End Video*/
 
 /* start client review*/
 #quote-carousel

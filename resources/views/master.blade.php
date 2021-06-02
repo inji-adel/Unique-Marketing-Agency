@@ -36,6 +36,7 @@
     @include('header')
     @include('Services')
     @include('AboutUs')
+    @include('OurTeam')
     @include('ContactUs')
 </body>
 
