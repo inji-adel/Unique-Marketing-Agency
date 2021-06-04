@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="text">
-                    <h1 class="text-center">OUR SERVICES</h1>
+                    <h1 class="text-center" style="margin-left: 400px">OUR SERVICES</h1>
                 </div>
                 <div class="col-md-12">
                     <div id="Carousel" class="carousel slide">
@@ -135,6 +135,7 @@
 </div>
 
 
+
 <style>
     .big {
         margin-top: 15px;
@@ -143,7 +144,7 @@
     }
 
     .service {
-        margin-top: 30%;
+        margin-top: -200px;
     }
 
     .container {
