@@ -21,19 +21,24 @@
 
     .main h1 {
         color: #aaa9ad;
-        margin-top: 100px;
+        margin-top: 150px;
+        margin-right: 200px;
+        white-space: break-spaces;
+        margin-left: 50px;
     }
 
     .main h2 {
         color: #fff;
         margin-top: 100px;
+        text-align: center;
+        font-size: 40px;
     }
 
     .sidenav {
         height: 100%;
         background-image: url(image1.jpg);
-        overflow-x: hidden;
-        padding-top: 20px;
+        overflow: hidden;
+        /* padding-top: 20px; */
     }
 
 
