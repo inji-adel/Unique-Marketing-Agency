@@ -22,7 +22,7 @@ Route::get('/text', function () {
     return view('ServicesDetails');
 })->name('services');
 
-Route::get('services/{name}', [ServicesController::class, 'show'])->name('showService');
+Route::get('services/{slug}', [ServicesController::class, 'show'])->name('showService');
 
 Route::get('/contactus', [App\Http\Controllers\HomeController::class, 'index'])->name('ContactUs');
 Auth::routes();

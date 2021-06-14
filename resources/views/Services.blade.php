@@ -35,7 +35,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/marketing-strategy') }}">More</a></div>
                                         </div>
 
                                     </div>
@@ -45,7 +45,8 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/social-media-management') }}">More</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +62,8 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/search-engine-marketing') }}">More</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
@@ -70,7 +72,8 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/content-creation-management') }}">More</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
@@ -79,7 +82,8 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/website-design-development') }}">More</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +100,8 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/photography-videography') }}">More</a>
+                                            </div>
                                         </div>
 
                                         </a>
@@ -108,7 +113,7 @@
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
                                                 dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/events') }}">More</a></div>
                                         </div>
 
                                         </a>
