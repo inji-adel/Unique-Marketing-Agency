@@ -38,6 +38,7 @@
     @include('Services')
     @include('AboutUs')
     @include('OurTeam')
+    @yield('form');
     @include('ContactUs')
 </body>
 

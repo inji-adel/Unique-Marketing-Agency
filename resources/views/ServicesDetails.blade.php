@@ -1,11 +1,12 @@
+@include('navbar')
 @if (isset($service))
     <div class="sidenav">
         <img src="/{{ $service->image }}" class="img-thumbnail" alt="Cinque Terre">
     </div>
     <div class="main">
         <div class="col-md-6 col-sm-12">
-            <h2>{{ $service->name }}</h2>
-            <h1>{{ $service->content }}</h1>
+            <h1>{{ $service->name }}</h1>
+            <h2>{{ $service->content }}</h2>
         </div>
     </div>
 @else
@@ -19,15 +20,15 @@
         background-color: black;
     }
 
-    .main h1 {
+    .main h2 {
         color: #aaa9ad;
-        margin-top: 150px;
-        margin-right: 200px;
+        margin-top: 100px;
+        /* margin-right: 200px; */
         white-space: break-spaces;
         margin-left: 50px;
     }
 
-    .main h2 {
+    .main h1 {
         color: #fff;
         margin-top: 100px;
         text-align: center;
@@ -35,6 +36,7 @@
     }
 
     .sidenav {
+        margin-top: 150px;
         height: 100%;
         background-image: url(image1.jpg);
         overflow: hidden;

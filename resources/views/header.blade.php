@@ -5,8 +5,8 @@
                 <i class="fa fa-bars fa-2x"></i>
             </div>
             <div class="logo">
-                <a class="navbar-brand" href="#">
-                    <img src="logo.png" alt="logo" style="width:100px;">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    <img src="/logo.png" alt="logo" style="width:100px;">
                 </a>
             </div>
             <div class="menu">
@@ -35,7 +35,7 @@
         width: 100%;
         height: 100vh;
         margin-bottom: 350px;
-        background-image: url(fox.jpg);
+        background-image: url(/fox.jpg);
     }
 
     .content {

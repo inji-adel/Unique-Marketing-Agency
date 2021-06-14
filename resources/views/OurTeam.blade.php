@@ -6,37 +6,37 @@
         <div class="shuffle-imgs center ">
             <div class="row ">
                 <div class="col-md">
-                    <img class="websites" src="girl1.jpg" alt="" />
+                    <img class="websites" src="/girl1.jpg" alt="" />
                     <p>Tina Morad <br> CEO</p>
                 </div>
                 <div class="col-md">
-                    <img class="logos" src="girl2.jpg" alt="" />
+                    <img class="logos" src="/girl2.jpg" alt="" />
                     <p>Name <br> Title</p>
                 </div>
                 <div class="col-md">
-                    <img class="logos" src="boy2.png">
+                    <img class="logos" src="/boy2.png">
                     <p>Name <br> Title</p>
                 </div>
                 <div class="col-md">
-                    <img class="websites" src="girl1.jpg">
+                    <img class="websites" src="/girl1.jpg">
                     <p>Name <br> Title</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md">
-                    <img class="graphic" src="girl1.jpg">
+                    <img class="graphic" src="/girl1.jpg">
                     <p>Name <br> Title</p>
                 </div>
                 <div class="col-md">
-                    <img class="vedios" src="girl2.jpg">
+                    <img class="vedios" src="/girl2.jpg">
                     <p>Name <br> Title</p>
                 </div>
                 <div class="col-md">
-                    <img class="websites" src="boy2.png">
+                    <img class="websites" src="/boy2.png">
                     <p>Name <br> Title</p>
                 </div>
                 <div class="col-md">
-                    <img class="marketing" src="boy2.png">
+                    <img class="marketing" src="/boy2.png">
                     <p>Name <br> Title</p>
                 </div>
             </div>

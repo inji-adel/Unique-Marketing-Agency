@@ -1,43 +1,43 @@
 <div class="image">
     <div class="row">
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="girl2.jpg" style="width:100%">
+            <img src="/girl2.jpg" style="width:100%">
         </div>
     </div>
 </div>

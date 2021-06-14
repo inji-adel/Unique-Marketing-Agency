@@ -37,16 +37,13 @@
                         <div class="text">
                             <p><a href="phoneto:01284891754?subject=Contact">+201284090766</a></p>
                         </div>
-                    </div>
-                    <div class="box">
                         <div class="icon"> <i class="fas fa-envelope"></i></div>
                         <div class="text">
-                            <p><a
-                                    href="mailto:engy.1998@outlook.com?subject=Contact">Unique1.marketingagency@gmail.com</a>
+                            <p>
+                                <a href="mailto:unique1.marketingagency@gmail.com?subject=Contact">Unique1.marketingagency@gmail.com
                             </p>
                             <div class="dream row">
                                 <div class="high col">
-                                    <p class="text">GET IN TOUCH</p>
                                     <a class="ghl" href="https://www.facebook.com/unique1.marketingagency"><i
                                             class="fab fa-facebook-f"></i></a>
                                     <a class="ghl" href="https://www.linkedin.com/company/72379370/admin/"><i
@@ -61,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-default">Default</button>
+                    <button class="btn btn-default"><a href="{{ url('/contact/form') }}">Get In Touch</button>
                 </div>
             </div>
         </div>
@@ -69,8 +66,13 @@
 </div>
 </div>
 <style>
+    .icon {
+        color: lightseagreen;
+    }
+
     .btn {
         margin-top: 20px;
+        background-color: #1087cc;
     }
 
     h3 {
@@ -94,8 +96,8 @@
     }
 
     .ghl {
-        color: #aaa9ad;
-        font-size: 16px;
+        color: lightseagreen;
+        font-size: 30px;
     }
 
     .ghl:hover {
