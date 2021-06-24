@@ -1,7 +1,6 @@
 <div id="ContactUs">
     <hr>
     <div class="container">
-
         <div class="row grid-divider ">
             <div class="col-lg-3">
                 <div class="col-padding">
@@ -31,9 +30,9 @@
             </div>
             <div class="col-lg-3">
                 <div class="col-padding">
-                    <h3>Contact Us</h3>
+                    <h3 class="contactus">Contact Us</h3>
                     <div class="box">
-                        <div class="icon"> <i class="fa fa-phone" style="transform: rotate(90deg);"></i></div>
+                        <div class="icon"> <i class="fa fa-phone"></i></div>
                         <div class="text">
                             <p><a href="phoneto:01284891754?subject=Contact">+201284090766</a></p>
                         </div>
@@ -67,6 +66,10 @@
             </div>
         </div>
     </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+201284090766&text=Hello." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
 </div>
 </div>
 <style>
@@ -76,7 +79,11 @@
 
     .btn {
         margin-top: 20px;
-        background-color: #1087cc;
+        background-color: white;
+    }
+
+    .btn a {
+        color: black;
     }
 
     h3 {
@@ -106,6 +113,39 @@
 
     .ghl:hover {
         color: #DDD;
+    }
+
+    .dream {
+        letter-spacing: 3px;
+    }
+
+    .contactus {
+        border-style: solid;
+        border-color: white;
+        background: white;
+        border-radius: 100px;
+        width: 120px;
+        height: 35px;
+        color: black;
+    }
+
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        /* box-shadow: 2px 2px 3px #999; */
+        z-index: 100;
+    }
+
+    .my-float {
+        margin-top: 16px;
     }
 
     @media (min-width: 768px) {

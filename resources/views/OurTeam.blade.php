@@ -46,9 +46,14 @@
 </div>
 <style>
     .title h1 {
-        color: #aaa9ad;
         margin-bottom: 60px;
-        font-family: serif;
+        border-style: solid;
+        border-color: white;
+        background: white;
+        border-radius: 100px;
+        width: 200px;
+        height: 45px;
+        margin-left: 800px;
     }
 
     .featured-work {

@@ -2,7 +2,7 @@
 <div id="AboutUs">
     <div class="how-section1">
         <div class="text">
-            <h1>ABOUT US</h1>
+            <h1 class="text-center">ABOUT US</h1>
         </div>
         <div class="row">
             <div class="col-md-6 how-img">
@@ -135,37 +135,6 @@
 </div>
 <!--LOGOS-->
 @include('logos')
-{{-- <div class="image">
-    <div class="row">
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="girl2.jpg" style="width:100%">
-        </div>
-    </div>
-</div>
-</div> --}}
 <hr>
 <!---End LOGOS-->
 <!--START VIDEO-->
@@ -190,10 +159,14 @@
     }
 
     .text h1 {
-        color: #aaa9ad;
+        color: black;
+        border-style: solid;
+        border-color: white;
+        background: white;
+        border-radius: 100px;
+        width: 300px;
+        height: 45px;
         margin-bottom: 100px;
-        font-family: serif;
-
     }
 
     .text2 {
@@ -351,7 +324,6 @@
             interval: 4000,
         });
     });
-
 </script>
 
 </html>
