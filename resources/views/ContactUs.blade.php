@@ -33,7 +33,7 @@
                 <div class="col-padding">
                     <h3>Contact Us</h3>
                     <div class="box">
-                        <div class="icon"> <i class="fa fa-phone"></i></div>
+                        <div class="icon"> <i class="fa fa-phone" style="transform: rotate(90deg);"></i></div>
                         <div class="text">
                             <p><a href="phoneto:01284891754?subject=Contact">+201284090766</a></p>
                         </div>
@@ -44,16 +44,20 @@
                             </p>
                             <div class="dream row">
                                 <div class="high col">
-                                    <a class="ghl" href="https://www.facebook.com/unique1.marketingagency"><i
+                                    <a class="ghl" style="color: #3B5998;"
+                                        href="https://www.facebook.com/unique1.marketingagency"><i
                                             class="fab fa-facebook-f"></i></a>
-                                    <a class="ghl" href="https://www.linkedin.com/company/72379370/admin/"><i
-                                            class="fab fa-linkedin"></i></i></a>
-                                    <a class="ghl" href=" https://www.instagram.com/unique1.marketingagency/"><i
+                                    <a class="ghl" style="color: #dd2a7b;"
+                                        href=" https://www.instagram.com/unique1.marketingagency/"><i
                                             class="fab fa-instagram"></i></a>
-                                    <a class="ghl" href=" https://twitter.com/unique1_agency"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="ghl" href="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
+                                    <a class="ghl" style="color: #0077B5;"
+                                        href="https://www.linkedin.com/company/72379370/admin/"><i
+                                            class="fab fa-linkedin"></i></i></a>
+                                    <a class="ghl"
+                                        style="color: red;"="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
                                             class="fab fa-youtube"></i></a>
+                                    <a class="ghl" style="color: #08a0e9;" href=" https://twitter.com/unique1_agency"><i
+                                            class="fab fa-twitter"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +71,7 @@
 </div>
 <style>
     .icon {
-        color: lightseagreen;
+        color: white;
     }
 
     .btn {
