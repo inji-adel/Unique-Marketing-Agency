@@ -19,33 +19,29 @@
                             <div class="item active">
                                 <div class="row">
                                     <div class=" big col-md-4">
-                                        <div class="img-text">
-                                            <h2>Branding</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="branding">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/branding') }}">More</a></div>
+                                                    href="{{ url('/services/branding') }}">Read More</a></div>
                                         </div>
                                     </div>
 
                                     <div class=" big col-md-4">
 
-                                        <div class="img-text">
-                                            <h2>Marketing Strategy</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="MS">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/marketing-strategy') }}">More</a></div>
+                                                    href="{{ url('/services/marketing-strategy') }}">Read More</a>
+                                            </div>
                                         </div>
 
                                     </div>
                                     <div class=" big col-md-4">
-                                        <div class="img-text">
-                                            <h2>Social Media Management</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="SMM">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/social-media-management') }}">More</a>
+                                                    href="{{ url('/services/social-media-management') }}">Read
+                                                    More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -57,32 +53,29 @@
                             <div class="item">
                                 <div class="row">
                                     <div class=" big col-md-4">
-                                        <div class="img-text">
-                                            <h2>Search Engine Marketing</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="SEM">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/search-engine-marketing') }}">More</a>
+                                                    href="{{ url('/services/search-engine-marketing') }}">Read
+                                                    More</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
-                                        <div class="img-text">
-                                            <h2>Content Creation & Management</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="CCM">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/content-creation-management') }}">More</a>
+                                                    href="{{ url('/services/content-creation-management') }}">Read
+                                                    More</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="big col-md-4">
-                                        <div class="img-text">
-                                            <h2>Website Design & Development</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="WDD">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/website-design-development') }}">More</a>
+                                                    href="{{ url('/services/website-design-development') }}">Read
+                                                    More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -95,12 +88,11 @@
                                 <div class="row">
                                     <div class="big col-md-4">
                                         <!--<a href="#">-->
-                                        <div class="img-text">
-                                            <h2>Photography & Videography</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="PV">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/photography-videography') }}">More</a>
+                                                    href="{{ url('/services/photography-videography') }}">Read
+                                                    More</a>
                                             </div>
                                         </div>
 
@@ -108,12 +100,10 @@
                                     </div>
                                     <div class="big col-md-4">
                                         <!--<a href="#">-->
-                                        <div class="img-text">
-                                            <h2>Events</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odio
-                                                dolore est magnam dolor ut mollitia maiores, eius error obcaecati?</p>
+                                        <div class="img-text" id="events">
+                                            <br><br><br><br><br><br>
                                             <div class="btn btn-light"><a style="color: #1b1e21; font-size: 10px;"
-                                                    href="{{ url('/services/events') }}">More</a></div>
+                                                    href="{{ url('/services/events') }}">Read More</a></div>
                                         </div>
 
                                         </a>
@@ -163,9 +153,48 @@
         display: block;
         text-align: center;
         padding: 40% 5%;
-        background: #aaa9ad;
         color: black;
         border-radius: 15px;
+    }
+
+    #branding {
+        background-image: url('/images/services/branding.jpg');
+        background-size: 310px;
+    }
+
+    #MS {
+        background-image: url('/images/services/MS.jpg');
+        background-size: 310px;
+    }
+
+    #events {
+        background-image: url('/images/services/events.jpg');
+        background-size: 310px;
+    }
+
+    #CCM {
+        background-image: url('/images/services/CCM.jpg');
+        background-size: 310px;
+    }
+
+    #PV {
+        background-image: url('/images/services/PV.jpg');
+        background-size: 310px;
+    }
+
+    #SEM {
+        background-image: url('/images/services/SEM.jpg');
+        background-size: 310px;
+    }
+
+    #SMM {
+        background-image: url('/images/services/SMM.jpg');
+        background-size: 310px;
+    }
+
+    #WDD {
+        background-image: url('/images/services/WDD.jpg');
+        background-size: 310px;
     }
 
     .img-text h2 {
@@ -236,10 +265,6 @@
 
         }
 
-        .img-text h2 {
-            font-size: 6px bold;
-        }
-
         .big {
             margin-top: 10px;
         }
@@ -248,6 +273,37 @@
             padding-left: 40px;
         }
 
+        #branding {
+            background-size: 220px 350px;
+        }
+
+        #MS {
+            background-size: 220px 350px;
+        }
+
+        #events {
+            background-size: 220px 350px;
+        }
+
+        #CCM {
+            background-size: 200px 350px;
+        }
+
+        #PV {
+            background-size: 200px 350px;
+        }
+
+        #SEM {
+            background-size: 210px 350px;
+        }
+
+        #SMM {
+            background-size: 220px 350px;
+        }
+
+        #WDD {
+            background-size: 200px 350px;
+        }
 
     }
 
@@ -263,16 +319,44 @@
 
         }
 
-        .img-text h2 {
-            font-size: 6px bold;
-        }
-
         .big {
             margin-top: 10px;
         }
 
         .text h1 {
             padding-left: 40px;
+        }
+
+        #branding {
+            background-size: 290px 350px;
+        }
+
+        #MS {
+            background-size: 290px 350px;
+        }
+
+        #events {
+            background-size: 290px 350px;
+        }
+
+        #CCM {
+            background-size: 290px 350px;
+        }
+
+        #PV {
+            background-size: 290px 350px;
+        }
+
+        #SEM {
+            background-size: 290px 350px;
+        }
+
+        #SMM {
+            background-size: 290px 350px;
+        }
+
+        #WDD {
+            background-size: 290px 350px;
         }
 
     }

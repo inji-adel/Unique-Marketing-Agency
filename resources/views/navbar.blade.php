@@ -38,7 +38,7 @@
             </div>
             <div class="logo">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="/logo.png" alt="logo" style="width:100px;">
+                    <img src="/images/navbar/logo.png" alt="logo" style="width:100px;">
                 </a>
             </div>
             <div class="menu">
@@ -61,13 +61,6 @@
         scroll-behavior: smooth;
         overflow-x: hidden;
 
-    }
-
-    header {
-        /* width: 100%;
-        height: 100vh;
-        margin-bottom: 350px;
-        background-image: url(/fox.jpg); */
     }
 
     .content {

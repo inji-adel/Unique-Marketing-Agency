@@ -1,4 +1,5 @@
 <header>
+    <img src="{{ url('/images/navbar/navbar.jpg') }}" alt="navbar image">
     <section class="pt-5 pb-5 mt-0 align-items-center d-flex ">
         <nav>
             <div class="menu-icon">
@@ -6,7 +7,7 @@
             </div>
             <div class="logo">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="/logo.png" alt="logo" style="width:100px;">
+                    <img src="/images/navbar/logo.png" alt="logo" style="width:100px;">
                 </a>
             </div>
             <div class="menu">
@@ -21,37 +22,32 @@
             </div>
         </nav>
     </section>
-    </div>
 </header>
 
 <style>
     html {
         scroll-behavior: smooth;
         overflow-x: hidden;
-
     }
 
     header {
-        width: 100%;
-        height: 100vh;
+        /* width: 100%;
+        height: 100vh; */
         margin-bottom: 350px;
-        background-image: url(/fox.jpg);
+        /* background-image: url(/images/navbar/navbar.jpg);
+        background-size: 300vw; */
     }
 
-    .content {
-        width: 100%;
-        margin: 4em auto;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-
+    img {
+        width: 1830px;
     }
 
     .logo {
         line-height: 60px;
         top: 0;
         float: left;
-        margin-top: -20px;
+        margin-top: -30px;
+        margin-left: 60px;
         color: #fff;
         font-weight: bold;
         font-size: 20px;
@@ -59,6 +55,9 @@
     }
 
     nav {
+        position: absolute;
+        top: 10px;
+        right: 16px;
         width: 100%;
         line-height: 60px;
     }
@@ -67,12 +66,9 @@
         line-height: 50px;
         list-style: none;
         overflow: hidden;
-        color: #aaa9ad;
+        color: white;
         padding: 0;
         text-align: right;
-
-
-
     }
 
     nav ul li {
@@ -83,7 +79,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #aaa9ad;
+        color: white;
         font-size: 16px;
 
     }
@@ -96,7 +92,7 @@
         box-sizing: border-box;
         padding: 15px 24px;
         cursor: pointer;
-        color: #aaa9ad;
+        color: white;
         display: none;
 
     }
@@ -107,7 +103,7 @@
     }
 
     nav ul li a:hover {
-        color: #aaa9ad;
+        color: white;
         background-color: black;
         padding: 15px;
         margin: 10px;
@@ -117,17 +113,19 @@
     }
 
     @media(max-width: 786px) {
+        img {
+            max-width: 100%;
+        }
 
         .logo {
             top: 0;
-            margin-top: -109px;
-            margin-left: 10px;
-
+            margin-top: -90px;
+            margin-left: 365px;
         }
 
         nav ul {
             max-height: 0px;
-            background: transparent;
+            background: black;
 
         }
 
@@ -152,20 +150,22 @@
         }
 
 
-
     }
 
     @media (max-width: 991.98px) {
+        img {
+            max-width: 100%;
+        }
+
         .logo {
             top: 0;
-            margin-top: -109px;
-            margin-left: 10px;
-
+            margin-top: -90px;
+            margin-left: 365px;
         }
 
         nav ul {
             max-height: 0px;
-            background: transparent;
+            background: black;
 
         }
 
