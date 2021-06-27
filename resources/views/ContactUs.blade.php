@@ -107,12 +107,7 @@
     }
 
     .ghl {
-        color: lightseagreen;
         font-size: 30px;
-    }
-
-    .ghl:hover {
-        color: #DDD;
     }
 
     .dream {
