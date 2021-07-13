@@ -28,43 +28,33 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="col-padding">
-                    <h3 class="contactus">Contact Us</h3>
-                    <div class="box">
-                        <div class="icon"> <i class="fa fa-phone"></i></div>
-                        <div class="text">
-                            <p><a href="phoneto:01284891754?subject=Contact">+201284090766</a></p>
-                        </div>
-                        <div class="icon"> <i class="fas fa-envelope"></i></div>
-                        <div class="text">
-                            <p>
-                                <a href="mailto:unique1.marketingagency@gmail.com?subject=Contact">Unique1.marketingagency@gmail.com
-                            </p>
-                            <div class="dream row">
-                                <div class="high col">
-                                    <a class="ghl" style="color: #3B5998;"
-                                        href="https://www.facebook.com/unique1.marketingagency"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="ghl" style="color: #dd2a7b;"
-                                        href=" https://www.instagram.com/unique1.marketingagency/"><i
-                                            class="fab fa-instagram"></i></a>
-                                    <a class="ghl" style="color: #0077B5;"
-                                        href="https://www.linkedin.com/company/72379370/admin/"><i
-                                            class="fab fa-linkedin"></i></i></a>
-                                    <a class="ghl"
-                                        style="color: red;"="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
-                                            class="fab fa-youtube"></i></a>
-                                    <a class="ghl" style="color: #08a0e9;" href=" https://twitter.com/unique1_agency"><i
-                                            class="fab fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn btn-default"><a href="{{ url('/contact/form') }}">Get In Touch</button>
-                </div>
+        </div>
+    </div><br>
+    <div class="row square">
+        <div class="col-sm-6">
+            <div class="icon"> <i class="fa fa-phone"></i> <a href="phoneto:01284891754?subject=Contact"
+                    style="color: white;">+201284090766</a></div>
+            <div class="icon"> <i class="fas fa-envelope"></i> <a
+                    href="mailto:unique1.marketingagency@gmail.com?subject=Contact"
+                    style="color: white;">Unique1.marketingagency@gmail.com</a>
             </div>
         </div>
+        <div class="col-sm-3">
+            <a class="ghl" style="color: #3B5998;" href="https://www.facebook.com/unique1.marketingagency"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="ghl" style="color: #dd2a7b;" href=" https://www.instagram.com/unique1.marketingagency/"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="ghl" style="color: #0077B5;" href="https://www.linkedin.com/company/72379370/admin/"><i
+                    class="fab fa-linkedin"></i></i></a>
+            <a class="ghl" style="color: red;"="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
+                    class="fab fa-youtube"></i></a>
+            <a class="ghl" style="color: #08a0e9;" href=" https://twitter.com/unique1_agency"><i
+                    class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-sm-3">
+            <button class="btn btn-default"><a href="{{ url('/contact/form') }}">Get In Touch</button>
+        </div>
+
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=+201284090766&text=Hello." class="float" target="_blank">
@@ -78,7 +68,6 @@
     }
 
     .btn {
-        margin-top: 20px;
         background-color: white;
     }
 
@@ -112,6 +101,13 @@
 
     .dream {
         letter-spacing: 3px;
+    }
+
+    .square {
+        width: 1000px;
+        border: 7px solid white;
+        padding: 20px;
+        margin: 20px;
     }
 
     .contactus {
