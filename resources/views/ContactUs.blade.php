@@ -31,14 +31,6 @@
         </div>
     </div><br>
     <div class="row square">
-        <div class="col-sm-6">
-            <div class="icon"> <i class="fa fa-phone"></i> <a href="phoneto:01284891754?subject=Contact"
-                    style="color: white;">+201284090766</a></div>
-            <div class="icon"> <i class="fas fa-envelope"></i> <a
-                    href="mailto:unique1.marketingagency@gmail.com?subject=Contact"
-                    style="color: white;">Unique1.marketingagency@gmail.com</a>
-            </div>
-        </div>
         <div class="col-sm-3">
             <a class="ghl" style="color: #3B5998;" href="https://www.facebook.com/unique1.marketingagency"><i
                     class="fab fa-facebook-f"></i></a>
@@ -50,6 +42,14 @@
                     class="fab fa-youtube"></i></a>
             <a class="ghl" style="color: #08a0e9;" href=" https://twitter.com/unique1_agency"><i
                     class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-sm-6">
+            <div class="icon"> <i class="fa fa-phone"></i> <a href="phoneto:01284891754?subject=Contact"
+                    style="color: white;">+201284090766</a></div>
+            <div class="icon"> <i class="fas fa-envelope"></i> <a
+                    href="mailto:unique1.marketingagency@gmail.com?subject=Contact"
+                    style="color: white;">Unique1.marketingagency@gmail.com</a>
+            </div>
         </div>
         <div class="col-sm-3">
             <button class="btn btn-default"><a href="{{ url('/contact/form') }}">Get In Touch</button>
