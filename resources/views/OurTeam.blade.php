@@ -6,38 +6,54 @@
         <div class="shuffle-imgs center ">
             <div class="row ">
                 <div class="col-md">
-                    <img class="websites" src="/girl1.jpg" alt="" />
-                    <p>Tina Morad <br> CEO</p>
+                    <img class="image" src="/girl1.jpg" alt="" />
+                    <div class="middle">
+                        <div class="text">Tina Morad <br> CEO </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="logos" src="/girl2.jpg" alt="" />
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/girl2.jpg" alt="" />
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="logos" src="/boy2.png">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/boy2.png">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="websites" src="/girl1.jpg">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/girl1.jpg">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md">
-                    <img class="graphic" src="/girl1.jpg">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/girl1.jpg">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="vedios" src="/girl2.jpg">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/girl2.jpg">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="websites" src="/boy2.png">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/boy2.png">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img class="marketing" src="/boy2.png">
-                    <p>Name <br> Title</p>
+                    <img class="image" src="/boy2.png">
+                    <div class="middle">
+                        <div class="text">Name <br> Title </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,6 +70,39 @@
         width: 200px;
         height: 45px;
         margin-left: 800px;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .col-md:hover .image {
+        opacity: 0.3;
+    }
+
+    .col-md:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 16px;
     }
 
     .featured-work {

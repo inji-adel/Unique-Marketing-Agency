@@ -48,7 +48,7 @@
     <hr>
     <!--Quotes-->
 
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <!--
             <div class='col-md-offset-2 col-md-8 text-center'>
@@ -131,11 +131,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
 <!--LOGOS-->
-@include('logos')
-<hr>
+{{-- @include('logos') --}}
+{{-- <hr> --}}
 <!---End LOGOS-->
 <!--START VIDEO-->
 <div class="iframe-container">

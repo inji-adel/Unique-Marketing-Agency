@@ -4,7 +4,7 @@
         <div class="row grid-divider ">
             <div class="col-lg-3">
                 <div class="col-padding">
-                    <h3>Our Mission <br> (Small Tactics)</h3>
+                    <h3>Our Mission</h3>
                     <p>We are committed to creating a strong digital presence for our partners, in order to keep up with
                         today’s fast-moving digital world, we continuously strive to promote our partners’ growth. at
                         competitive prices through working faster, smarter and in partnership with our clients.</p>
@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="col-padding">
-                    <h3>Our Vision <br> (Plan, Then Do)</h3>
+                    <h3>Our Vision</h3>
                     <p>We make this possible by continuously enriching our portfolio, hiring the best resources, and by
                         continuing to grow and adapt to new industry developments to be number one in the region and
                         build long, profitable relationships with our customers.</p>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="col-padding">
-                    <h3>Our Values <br> (Proof, Not promises)</h3>
+                    <h3>Our Values</h3>
                     <p>Integrity & Trust, Commitment to Quality, Customer Focus and Innovation.
                         Customer satisfaction will always be our primary objective in UNIQUE In all our projects, our
                         aim is to exceed our clients’ expectations by offering high-quality services at average market
