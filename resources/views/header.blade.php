@@ -1,3 +1,4 @@
+
 <header>
     <img src="{{ url('/images/navbar/navbar.jpg') }}" alt="navbar image">
     <section class="pt-5 pb-5 mt-0 align-items-center d-flex ">
@@ -28,6 +29,8 @@
     html {
         scroll-behavior: smooth;
         overflow-x: hidden;
+        
+        
     }
 
     header {
@@ -197,5 +200,8 @@
             $("nav ul").toggleClass("showing");
         });
     });
+    
+ 
+
 
 </script>

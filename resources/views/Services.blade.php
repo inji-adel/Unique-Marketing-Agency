@@ -1,10 +1,11 @@
 <div id="services">
     <div class="service">
+        <div class="text">
+            <h1>OUR SERVICES</h1>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="text">
-                    <h1 class="text-center" id="serviceText">OUR SERVICES</h1>
-                </div>
+                
                 <div class="col-md-12">
                     <div id="Carousel" class="carousel slide">
                         <ol class="carousel-indicators">
@@ -158,13 +159,9 @@
     }
 
     #serviceText {
-        color: black;
-        border-style: solid;
-        border-color: white;
-        background: white;
-        border-radius: 100px;
-        width: 300px;
-        height: 45px;
+        color: rgb(255, 254, 254);
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
+        
         margin-left: 400px
     }
 
@@ -211,7 +208,7 @@
     .img-text h2 {
 
         font-size: 25px;
-        letter-spacing: 2px;
+        
         margin: -15px;
         font: bold;
     }
@@ -264,7 +261,7 @@
         background: #080808;
     }
 
-    @media (max-width: 576px) {
+    @media(max-width:500px) {
 
         .container {
             align-items: center;
@@ -286,6 +283,7 @@
 
         #branding {
             background-size: 220px 350px;
+            
         }
 
         #MS {
@@ -318,7 +316,7 @@
 
     }
 
-    @media (max-width: 991.98px) {
+    @media(max-width:768px) {
 
         .container {
             align-items: center;
@@ -336,10 +334,11 @@
 
         .text h1 {
             padding-left: 40px;
+            margin-right: 70px;
         }
 
         #branding {
-            background-size: 290px 350px;
+            background-size: 310px;
         }
 
         #MS {

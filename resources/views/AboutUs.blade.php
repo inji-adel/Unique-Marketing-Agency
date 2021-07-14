@@ -2,7 +2,7 @@
 <div id="AboutUs">
     <div class="how-section1">
         <div class="text">
-            <h1 class="text-center">ABOUT US</h1>
+            <h1>ABOUT US</h1>
         </div>
         <div class="row">
             <div class="col-md-6 how-img">
@@ -159,14 +159,11 @@
     }
 
     .text h1 {
-        color: black;
-        border-style: solid;
-        border-color: white;
-        background: white;
-        border-radius: 100px;
-        width: 300px;
-        height: 45px;
+        color:white;
+        text-align: center;
         margin-bottom: 100px;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
+        
     }
 
     .text2 {
