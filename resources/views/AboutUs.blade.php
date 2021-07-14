@@ -149,6 +149,11 @@
 <hr>
 <html>
 <style>
+    #AboutUs {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
     /*About Us*/
     .col-md-6 {
         margin-top: 40px;
@@ -159,10 +164,8 @@
     }
 
     .text h1 {
-        color: black;
-        border-style: solid;
-        border-color: white;
-        background: white;
+        color: white;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
         border-radius: 100px;
         width: 300px;
         height: 45px;
@@ -179,11 +182,9 @@
     }
 
     .how-section1 h4 {
-        color: #707072;
         font-weight: bold;
         font-size: 30px;
         margin-bottom: 25px;
-        font-family: serif;
     }
 
     .how-section1 .row {
@@ -210,7 +211,7 @@
 
     /* Control buttons  */
     #quote-carousel .carousel-control {
-        color: rgb(255, 254, 254);
+        color: white;
         margin-top: 20px;
     }
 

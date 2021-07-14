@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>unique marketing agency</title>
+    <title>Unique Marketing Agency</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.css">
     <!--Coursel links-->
@@ -15,6 +15,8 @@
     <!-- Warming Up -->
     <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
     <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+
+    <link rel="shortcut icon" href="{{ asset('/images/navbar/favicon.ico') }}" type='image/x-icon'>
 
     <!--fonts-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"

@@ -197,5 +197,4 @@
             $("nav ul").toggleClass("showing");
         });
     });
-
 </script>

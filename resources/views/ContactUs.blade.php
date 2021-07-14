@@ -32,16 +32,14 @@
     </div><br>
     <div class="row square">
         <div class="col-sm-3">
-            <a class="ghl" style="color: #3B5998;" href="https://www.facebook.com/unique1.marketingagency"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a class="ghl" style="color: #dd2a7b;" href=" https://www.instagram.com/unique1.marketingagency/"><i
+            <a class="ghl" href="https://www.facebook.com/unique1.marketingagency"><i class="fab fa-facebook-f"></i></a>
+            <a class="ghl" href=" https://www.instagram.com/unique1.marketingagency/"><i
                     class="fab fa-instagram"></i></a>
-            <a class="ghl" style="color: #0077B5;" href="https://www.linkedin.com/company/72379370/admin/"><i
+            <a class="ghl" href="https://www.linkedin.com/company/72379370/admin/"><i
                     class="fab fa-linkedin"></i></i></a>
-            <a class="ghl" style="color: red;"="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
+            <a class="ghl" href="https://www.youtube.com/channel/UC7VbEzqJL-aebkdMqfymxug"><i
                     class="fab fa-youtube"></i></a>
-            <a class="ghl" style="color: #08a0e9;" href=" https://twitter.com/unique1_agency"><i
-                    class="fab fa-twitter"></i></a>
+            <a class="ghl" href=" https://twitter.com/unique1_agency"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="col-sm-6">
             <div class="icon"> <i class="fa fa-phone"></i> <a href="phoneto:01284891754?subject=Contact"
@@ -63,6 +61,14 @@
 </div>
 </div>
 <style>
+    #ContactUs {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        color: white;
+    }
+
     .icon {
         color: white;
     }
@@ -75,27 +81,15 @@
         color: black;
     }
 
-    h3 {
-        color: #aaa9ad;
+    .col-padding h3 {
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
         font-family: serif;
         margin-top: auto;
         margin-bottom: 20px;
     }
 
-    p {
-        color: rgb(223, 222, 222);
-
-    }
-
-    p a {
-        color: rgb(223, 222, 222);
-    }
-
-    .text p {
-        color: #aaa9ad;
-    }
-
     .ghl {
+        color: white;
         font-size: 30px;
     }
 
@@ -105,19 +99,9 @@
 
     .square {
         width: 1000px;
-        border: 7px solid white;
+        border: 7px solid peru;
         padding: 20px;
         margin: 20px;
-    }
-
-    .contactus {
-        border-style: solid;
-        border-color: white;
-        background: white;
-        border-radius: 100px;
-        width: 120px;
-        height: 35px;
-        color: black;
     }
 
     .float {
@@ -127,7 +111,7 @@
         bottom: 40px;
         right: 40px;
         background-color: #25d366;
-        color: #FFF;
+        color: white;
         border-radius: 50px;
         text-align: center;
         font-size: 30px;

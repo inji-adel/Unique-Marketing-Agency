@@ -21,7 +21,7 @@
     }
 
     .main h2 {
-        color: #aaa9ad;
+        color: white;
         margin-top: 100px;
         /* margin-right: 200px; */
         white-space: break-spaces;
@@ -30,6 +30,7 @@
 
     .main h1 {
         color: #fff;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
         margin-top: 100px;
         text-align: center;
         font-size: 40px;

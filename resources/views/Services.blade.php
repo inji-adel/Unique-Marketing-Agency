@@ -132,6 +132,11 @@
 
 
 <style>
+    #services {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     .big {
         margin-top: 15px;
         padding-bottom: 50px;
@@ -158,11 +163,7 @@
     }
 
     #serviceText {
-        color: black;
-        border-style: solid;
-        border-color: white;
-        background: white;
-        border-radius: 100px;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
         width: 300px;
         height: 45px;
         margin-left: 400px

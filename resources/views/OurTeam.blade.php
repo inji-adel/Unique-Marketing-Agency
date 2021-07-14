@@ -62,10 +62,10 @@
 </div>
 <style>
     .title h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
         margin-bottom: 60px;
-        border-style: solid;
-        border-color: white;
-        background: white;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
         border-radius: 100px;
         width: 200px;
         height: 45px;
