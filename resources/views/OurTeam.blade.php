@@ -1,7 +1,7 @@
 <div id="OurTeam">
     <div class="featured-work text-center">
         <div class="title">
-            <h1>Team</h1>
+            <h1>OUR TEAM</h1>
         </div>
         <div class="shuffle-imgs center ">
             <div class="row ">
@@ -64,12 +64,14 @@
     .title h1 {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        margin-bottom: 60px;
+        margin-bottom: 200px;
         text-shadow: 2px 2px 5px rgb(233, 220, 150);
         border-radius: 100px;
         width: 200px;
         height: 45px;
-        margin-left: 800px;
+        display: inline;
+        text-shadow: 2px 2px 5px rgb(233, 220, 150);
+
     }
 
     .image {
@@ -129,10 +131,11 @@
         width: 100%;
     }
 
-    @media(max-width:576px) {
+    @media(max-width:500px) {
 
         .featured-work .row img {
             width: 100%;
+            display: inline;
         }
     }
 
@@ -140,10 +143,12 @@
 
         .featured-work .row img {
             width: 40%;
+            display: inline;
         }
 
         .featured-work .shuffle-imgs .row .col-md {
             padding-bottom: 0px;
+            display: inline;
         }
 
 
@@ -152,6 +157,7 @@
     @media(min-width:800px) {
         .featured-work .shuffle-imgs .row .col-md {
             padding-bottom: 0px;
+            display: inline;
         }
 
         .featured-work .shuffle-imgs .row {

@@ -28,6 +28,8 @@
     html {
         scroll-behavior: smooth;
         overflow-x: hidden;
+
+
     }
 
     header {
