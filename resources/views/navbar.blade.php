@@ -67,6 +67,7 @@
         width: 100%;
         margin: 4em auto;
         font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
         line-height: 30px;
         text-align: justify;
 
@@ -80,6 +81,7 @@
         color: #fff;
         font-weight: bold;
         font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 2px;
     }
 

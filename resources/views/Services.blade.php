@@ -5,7 +5,7 @@
         </div>
         <div class="container">
             <div class="row">
-                
+
                 <div class="col-md-12">
                     <div id="Carousel" class="carousel slide">
                         <ol class="carousel-indicators">
@@ -213,13 +213,14 @@
     .img-text h2 {
 
         font-size: 25px;
-        
+        font-family: Arial, Helvetica, sans-serif;
         margin: -15px;
         font: bold;
     }
 
     .img-text p {
         font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
         margin-top: 30px;
     }
 
@@ -231,7 +232,7 @@
     .text h1 {
         color: #aaa9ad;
         margin-bottom: 100px;
-        font-family: serif;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     /* The controlsy */
@@ -288,7 +289,7 @@
 
         #branding {
             background-size: 220px 350px;
-            
+
         }
 
         #MS {

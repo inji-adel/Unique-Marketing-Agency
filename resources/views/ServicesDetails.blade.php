@@ -16,7 +16,7 @@
 
 <style>
     body {
-        font-family: serif;
+        font-family: Arial, Helvetica, sans-serif;
         background-color: black;
     }
 
@@ -34,6 +34,7 @@
         margin-top: 100px;
         text-align: center;
         font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .sidenav {

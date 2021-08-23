@@ -259,7 +259,7 @@
 
     .item blockquote p:before {
         content: "\f10d";
-        font-family: 'Fontawesome';
+        font-family: Arial, Helvetica, sans-serif;
         float: left;
         margin-right: 10px;
     }

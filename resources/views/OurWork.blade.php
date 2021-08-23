@@ -173,12 +173,13 @@
                 font-weight: bold;
                 margin: 0;
                 padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             .hero-text {
                 color: #e9b55c;
                 font-weight: 40px;
-                font-family: ;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: 40px;
                 text-align: center;
                 margin-bottom: 50px;
@@ -302,7 +303,7 @@
 
             .item blockquote p:before {
                 content: "\f10d";
-                font-family: 'Fontawesome';
+                font-family: Arial, Helvetica, sans-serif;
                 float: left;
                 margin-right: 10px;
             }
@@ -349,7 +350,6 @@
             $(document).ready(function() {
                 $(".player").mb_YTPlayer();
             });
-
         </script>
 
         </html>

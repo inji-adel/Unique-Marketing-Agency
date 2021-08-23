@@ -53,6 +53,7 @@
         color: #fff;
         font-weight: bold;
         font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 2px;
     }
 

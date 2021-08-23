@@ -6,54 +6,54 @@
         <div class="shuffle-imgs center ">
             <div class="row ">
                 <div class="col-md">
-                    <img class="image" src="/girl1.jpg" alt="" />
+                    <img class="image" src="images/team/tina.jpg" alt="" />
                     <div class="middle">
-                        <div class="text">Tina Morad <br> CEO </div>
+                        <div class="text"><b>Tina Morad</b> <br> CEO </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/girl2.jpg" alt="" />
+                    <img class="image" src="images/team/mina.jpg" alt="" />
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
+                        <div class="text"><b>Mina </b> <br> Graphic Designer </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/boy2.png">
+                    <img class="image" src="images/team/jerom.jpg">
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
+                        <div class="text"><b>Jerom Emad</b> <br> Art Director </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/girl1.jpg">
+                    <img class="image" src="images/team/inji.jpg">
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
+                        <div class="text"><b>Inji Adel</b> <br> UI/Ux Designer & Frontend Web Developer </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md">
-                    <img class="image" src="/girl1.jpg">
+                    <img class="image" src="images/team/john.jpg">
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
+                        <div class="text"><b>John Nabil</b> <br> Backend Web Developer </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/girl2.jpg">
+                    {{-- <img class="image" src="images/team/inji.jpg">
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
-                    </div>
+                        <div class="text"><b>Inji Adel</b> <br> UI/Ux Designer & Frontend Web Developer </div>
+                    </div> --}}
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/boy2.png">
+                    {{-- <img class="image" src="/boy2.png">
                     <div class="middle">
                         <div class="text">Name <br> Title </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md">
-                    <img class="image" src="/boy2.png">
+                    {{-- <img class="image" src="/images/team/john.jpg">
                     <div class="middle">
-                        <div class="text">Name <br> Title </div>
-                    </div>
+                        <div class="text"><b>John Nabil</b><br> Backend Web Developer </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

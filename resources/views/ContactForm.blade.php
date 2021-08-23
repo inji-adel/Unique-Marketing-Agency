@@ -27,9 +27,11 @@
         text-align: center;
         color: darkorange;
         font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     label {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 17px;
         color: khaki;
     }

@@ -94,7 +94,7 @@
 
     .col-padding h3 {
         text-shadow: 2px 2px 5px rgb(233, 220, 150);
-        font-family: serif;
+        font-family: Arial, Helvetica, sans-serif;
         margin-top: auto;
         margin-bottom: 20px;
         text-shadow: 2px 2px 5px rgb(233, 220, 150);
